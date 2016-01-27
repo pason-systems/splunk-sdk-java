@@ -1,5 +1,7 @@
 # The Splunk Software Development Kit for Java
 
+#####This branch can not be distributed, mainly because we are using a modified copy of HttpCookie from Oracle and the license restricts distribution
+
 #### Version 1.5.0
 
 The Splunk Software Development Kit (SDK) for Java contains library code and
