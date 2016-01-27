@@ -21,6 +21,13 @@
  * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
  * or visit www.oracle.com if you need additional information or have any
  * questions.
+ *
+ *
+ * This file has been modified to fix issue
+ * https://bugs.openjdk.java.net/browse/JDK-6790677. Line 1019, which threw
+ * an IllegalArgumentException, has been removed so that we can use the Java
+ * Splunk SDK version 1.5 with Java 6.
+ * This workaround will no longer be required when moving to Java 8.
  */
 
 package com.splunk;
